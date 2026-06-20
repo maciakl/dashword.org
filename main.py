@@ -98,6 +98,8 @@ Html = """
         .dashword {{
             font-size:5vw;
             color: #333;
+            user-select: all;
+            -webkit-user-select: all;
         }}
         footer {{
             position: fixed;
